@@ -44,3 +44,13 @@ body {
   margin: 5px;
   flex: 1;
 }
+
+input {
+  transition: border 300ms;
+  border: 1px solid #aaa;
+  outline: none;
+}
+
+input:invalid {
+  border-color: #b40000;
+}
